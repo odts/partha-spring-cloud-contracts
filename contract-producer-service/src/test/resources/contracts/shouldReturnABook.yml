@@ -1,0 +1,15 @@
+--- 
+name: "should Return the book with isbn 123"
+request: 
+  headers: 
+    Content-Type: application/json
+  method: GET
+  url: /api/books/123
+response: 
+  body: 
+    author: "some Author"
+    isbn: "123"
+    title: "some Book"
+  headers: 
+    Content-Type: application/json;charset=UTF-8
+  status: 200

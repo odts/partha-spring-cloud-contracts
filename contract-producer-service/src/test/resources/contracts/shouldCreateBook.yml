@@ -1,0 +1,19 @@
+--- 
+name: "should Create a book"
+request: 
+  body: 
+    isbn: "123"
+    author: "some Author"
+    title: "some Book"
+  headers: 
+    Content-Type: application/json
+  method: POST
+  url: /api/books
+response: 
+  body: 
+    isbn: "123"
+    author: "some Author"
+    title: "some Book"
+  headers: 
+    Content-Type: application/json;charset=UTF-8
+  status: 201
